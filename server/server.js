@@ -38,7 +38,7 @@ io.on ("connection", (socket) =>{
 })
 
 
-//render用
+//レンダー用
 if(process.env.NODE_ENV === "production"){
     app.get("*",(req,res)=>{
         app.use(express.static(staticPath))
