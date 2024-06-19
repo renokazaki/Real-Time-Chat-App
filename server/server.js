@@ -10,7 +10,7 @@ const app = express();
 
 const port = process.env.PORT || 5000;
 
-//レンダー用
+//レンダー用--------
 const staticPath = path.resolve(__dirname,".","dist")
 console.log(staticPath)
 //-----------------------------
